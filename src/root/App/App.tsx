@@ -4,7 +4,7 @@ import { AboutPage } from "Src/pages/AboutPage"
 import { ChainButtonsPage } from "Src/pages/ChainButtonsPage"
 
 export const App = () => (
-    <BrowserRouter>
+    <BrowserRouter basename={`${import.meta.env.BASE_URL}`}>
       <Routes>
         <Route element={<RootLayout />} >
           <Route path="/" element={<ChainButtonsPage />} />
