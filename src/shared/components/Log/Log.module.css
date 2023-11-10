@@ -1,0 +1,11 @@
+.list {
+    overflow: auto;
+    border: 1px solid lightgray;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.list li {
+    margin-bottom: 4px;
+}
+
