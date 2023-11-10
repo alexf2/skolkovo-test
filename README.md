@@ -1,4 +1,4 @@
-## Pre-requisites
+## Prerequisites
 - yarn 1.22;
 - node 18.17.
 
